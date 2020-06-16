@@ -19,7 +19,7 @@ const forecast = (longitude, latitude, callback) =>{
         }else{
             callback(undefined,{
                 message: "Today at " + time + " The weather is: " + weather_descriptions + ", and currently: " 
-                        + temperature + " degrees out with " + humidity + " humidity and "
+                        + temperature + " degrees out with " + humidity + "% humidity and "
                         + visibility + " visibility, but It's feels like " + feelslike + " degrees out"
 
             });  
